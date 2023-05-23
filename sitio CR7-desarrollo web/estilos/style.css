@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+
+
+
+
+
+   .titulosdefinitivos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
+
+
+
+    
+
+    #formulario{
+
+        background-color: beige;
+    }
+
+   body{
+    background-color: #191919;
+    }
+  
+    .titulo{
+      color: #F7F1E5;
+      display:flex;
+      justify-content: center;
+      height:30 ;
+      padding: 30;
+    }
+
+
+ 
+
+ .contenedor {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+}
+
+.navbar-brand{
+  width: 50px;
+  height: 50px;
+
+}
+
+.logodefinitivo{
+  width: 50px;
+  height: 50px;
+
+}
+
+.carousel-item img {
+  display: flex;
+  object-fit: cover;
+  height: 700px; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social-media {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  gap: 20px;
+  border-radius: 50%;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+.parrafohistoria{
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  text-align: justify;
+
+}
+
+@media (max-width: 767px) {
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .order-md-2 {
+    order: 1;
+  }
+  .order-md-1 {
+    order: 2;
+  }
+}
+
+@media (max-width: 767px) {
+	header {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+.imagenestadisticas{
+
+  max-width: 100%;
+	height: auto;
+}
+
+.container img{
+ display: flex;
+  object-fit: cover;
+  padding: 10px;
+  height: 300px; 
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.textoresumen{
+
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gridcomercial {
+  display: grid;
+  grid-template-areas:
+    "imagen1 imagen2 imagen3"
+    "imagen1 imagen2 imagen3"
+    "imagen1 imagen2 imagen3";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+
+.perfume1 {
+  grid-area: imagen1;
+}
+
+.perfume2 {
+  grid-area: imagen2;
+}
+
+.perfume3 {
+  grid-area: imagen3;
+}
+
